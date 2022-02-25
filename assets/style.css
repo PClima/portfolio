@@ -3,13 +3,22 @@
 @tailwind utilities;
 
 .head{
-    background-color: 	#C0C0C0
+    background-color:#C0C0C0
 }
 
 .text-color-custom {
     --tw-text-opacity: 1;
     color: rgba(242, 114, 0, var(--tw-text-opacity));
   }
+
+.section2{
+    margin-top: -8rem;
+}
+
+.section2_mobile{
+    margin-top: -3rem;
+}
+
 
 .section_head{
     padding-top: 2rem;
@@ -40,6 +49,7 @@
 .section {
     padding: 3rem 1.5rem;
 }
+
 
 .hero-body{
     -webkit-box-flex: 1;

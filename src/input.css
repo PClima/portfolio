@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head{
+    background-color:#C0C0C0
+}
+
+.text-color-custom {
+    --tw-text-opacity: 1;
+    color: rgba(242, 114, 0, var(--tw-text-opacity));
+  }
+
+.section2{
+    margin-top: -8rem;
+}
+
+.section2_mobile{
+    margin-top: -3rem;
+}
+
+
+.section_head{
+    padding-top: 2rem;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-align: center
+}
+
+.section.is-long {
+    padding-bottom: 14rem;
+}
+.section.is-primary {
+    background-color: #0A122A;
+    color: #fff;
+}
+
+.section {
+    padding: 5rem 1.5rem;
+}
+
+.section {
+    padding: 3rem 1.5rem;
+}
+
+
+.hero-body{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
+}
+
+.container{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+
+.columns.is-centered {
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.columns:last-child {
+    margin-bottom: -0.75rem;
+}
+
+.columns {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+}
+
+h3{
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-family: "Paytone One";
+}
+
+h3 span{
+    display: block;
+    margin: 11px 0 17px 0;
+    font-size: 80px;
+    line-height: 80px;
+    color: #f1ebe5;
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+    letter-spacing: -4px;
+}

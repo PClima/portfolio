@@ -1,7 +1,10 @@
 .heroImageContainer img{
-    border-radius: 50%;
+    border-radius: 100% !important;
     margin: 0 auto;
     box-shadow: 12px 0 #a98375, 24px 0 #976d5e, 36px 0 #7d5b4f;
+    width: 35em;
+    height: 35em;
+    object-fit: cover;
 }
 
 .skillsDiv{

@@ -339,4 +339,7 @@ footer p {
     .contactTypes .flexContainer .typeBox:first-child {
         margin-bottom: 15px;
     }
+    .vr{
+        display: none;
+    }
 }

@@ -69,7 +69,6 @@
 }
 
 .projectsArticle .imgProjectArticle img{
-    width: 100%;
     border-radius: 10px;
 }
 
@@ -295,6 +294,14 @@ footer p {
 }
 
 @media(max-width: 767px){
+    #hero h1{
+        text-align: center!important;
+        justify-content: center;
+    }
+    .heroImageContainer img{
+        width: 320px!important;
+        height: 320px!important;
+    }
     .projectsArticle {
         display: block;
         padding: 0;
